@@ -8,7 +8,7 @@
 </template>
 <script lang="ts">
 import Vue from 'vue'
-import Component, { createDecorator } from 'vue-class-component'
+import Component from 'vue-class-component'
 import { FromEvent } from 'vue-rx-decorator'
 
 const rand = subject => subject.map(() => Math.random())
